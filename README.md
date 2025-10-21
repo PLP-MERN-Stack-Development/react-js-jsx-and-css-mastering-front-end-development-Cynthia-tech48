@@ -1,70 +1,89 @@
-# React.js and Tailwind CSS Assignment
+Cynthia Task Manager
 
-This assignment focuses on building a responsive React application using JSX and Tailwind CSS, implementing component architecture, state management, hooks, and API integration.
+A fully responsive React.js application using Tailwind CSS, demonstrating component architecture, state management with hooks, and API integration. This app allows users to manage tasks efficiently, filter tasks, search, and persist data locally.
 
-## Assignment Overview
+Features
 
-You will:
-1. Set up a React project with Vite and Tailwind CSS
-2. Create reusable UI components
-3. Implement state management using React hooks
-4. Integrate with external APIs
-5. Style your application using Tailwind CSS
+Add, complete, and delete tasks
 
-## Getting Started
+Filter tasks by All, Active, or Completed
 
-1. Accept the GitHub Classroom assignment invitation
-2. Clone your personal repository that was created by GitHub Classroom
-3. Install dependencies:
-   ```
-   npm install
-   ```
-4. Start the development server:
-   ```
-   npm run dev
-   ```
+Search tasks dynamically
 
-## Files Included
+Tasks persist using localStorage
 
-- `Week3-Assignment.md`: Detailed assignment instructions
-- Starter files for your React application:
-  - Basic project structure
-  - Pre-configured Tailwind CSS
-  - Sample component templates
+Dark/Light mode toggle using Tailwind CSS
 
-## Requirements
+Reusable UI components: Button, Card, Navbar, Footer
 
-- Node.js (v18 or higher)
-- npm or yarn
-- Modern web browser
-- Code editor (VS Code recommended)
+Responsive design for desktop, tablet, and mobile
 
-## Project Structure
-
-```
+Project Structure
 src/
-├── components/       # Reusable UI components
-├── pages/           # Page components
-├── hooks/           # Custom React hooks
-├── context/         # React context providers
-├── api/             # API integration functions
-├── utils/           # Utility functions
-└── App.jsx          # Main application component
-```
+├── components/       # Reusable UI components (Button, Card, Navbar, Footer)
+├── pages/            # Pages (Home.jsx, ApiData.jsx)
+├── hooks/            # Custom hooks (useLocalStorageTasks)
+├── context/          # React context providers (ThemeContext)
+├── api/              # API integration functions (if needed)
+├── utils/            # Utility functions
+└── App.jsx           # Main application component
 
-## Submission
 
-Your work will be automatically submitted when you push to your GitHub Classroom repository. Make sure to:
 
-1. Complete all required components and features
-2. Implement proper state management with hooks
-3. Integrate with at least one external API
-4. Style your application with Tailwind CSS
-5. Deploy your application and add the URL to your README.md
 
-## Resources
 
-- [React Documentation](https://react.dev/)
-- [Tailwind CSS Documentation](https://tailwindcss.com/docs)
-- [Vite Documentation](https://vitejs.dev/guide/)
-- [React Router Documentation](https://reactrouter.com/) 
+
+Getting Started
+
+To run this project locally:
+
+Clone the repository
+
+git clone https://github.com/PLP-MERN-Stack-Development/react-js-jsx-and-css-mastering-front-end-development-Cynthia-tech48.git
+
+
+Install dependencies
+
+npm install
+
+
+Start the development server
+
+npm run dev
+
+
+Open your browser and navigate to http://localhost:5173
+
+Screenshots.
+
+
+**1. Home / Welcome Page**  
+![Home Page](./screenshots/homepage.jpg)  
+
+**2. Task Manager**  
+![Task Manager](./screenshots/tasks.jpg)  
+
+**3. API Data / Sample Tasks**  
+![API Data](./screenshots/api.jpg)  
+
+Deployment
+
+The app is deployed online and accessible at:
+
+[Your Deployed App URL]
+
+(Add your Vercel, Netlify, or GitHub Pages URL here.)
+
+
+
+Technologies Used
+
+React.js – For building the user interface
+
+Tailwind CSS – For styling and responsive design
+
+Vite – Development build tool
+
+localStorage – To persist task data
+
+React Hooks – useState, useEffect, useContext, and custom hooks
