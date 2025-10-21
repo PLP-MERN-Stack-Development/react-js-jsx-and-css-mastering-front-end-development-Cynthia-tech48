@@ -21,10 +21,15 @@ Responsive design for desktop, tablet, and mobile
 Project Structure
 src/
 ├── components/       # Reusable UI components (Button, Card, Navbar, Footer)
+
 ├── pages/            # Pages (Home.jsx, ApiData.jsx)
+
 ├── hooks/            # Custom hooks (useLocalStorageTasks)
+
 ├── context/          # React context providers (ThemeContext)
+
 ├── api/              # API integration functions (if needed)
+
 ├── utils/            # Utility functions
 └── App.jsx           # Main application component
 
@@ -52,7 +57,12 @@ Start the development server
 npm run dev
 
 
-Open your browser and navigate to http://localhost:5173
+Open your browser and navigate to http://
+
+
+
+
+
 
 Screenshots.
 
@@ -61,10 +71,10 @@ Screenshots.
 ![Home Page](./screenshots/homepage.jpg)  
 
 **2. Task Manager**  
-![Task Manager](./screenshots/tasks.jpg)  
+![Task Manager](./screenshots/Tasks.jpg)  
 
 **3. API Data / Sample Tasks**  
-![API Data](./screenshots/api.jpg)  
+![API Data](./screenshots/API.jpg)  
 
 Deployment
 
@@ -72,7 +82,7 @@ The app is deployed online and accessible at:
 
 [Your Deployed App URL]
 
-(Add your Vercel, Netlify, or GitHub Pages URL here.)
+
 
 
 
