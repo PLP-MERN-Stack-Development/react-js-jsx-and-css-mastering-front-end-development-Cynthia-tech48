@@ -79,8 +79,7 @@ Screenshots.
 Deployment
 
 The app is deployed online and accessible at:
-
-[Your Deployed App URL]
+(https//task-manager-hazel-gamma-50.vercel.app)
 
 
 
