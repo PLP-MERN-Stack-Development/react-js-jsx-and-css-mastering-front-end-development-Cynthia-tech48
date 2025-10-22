@@ -79,7 +79,7 @@ Screenshots.
 Deployment
 
 The app is deployed online and accessible at:
-https//task-manager-hazel-gamma-50.vercel.app
+https://task-manager-hazel-gamma-50.vercel.app
 
 
 
